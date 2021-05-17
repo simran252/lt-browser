@@ -1,19 +1,12 @@
-# ![Logo](chrome/app/theme/chromium/product_logo_64.png) Chromium
+# <img src="https://i.imgur.com/Gyghaje.png" width="50" height="50"/> LT Browser
 
-LT Browser is an open-source browser project that aims to build a safer, faster,
-and more stable way for all users to experience the web.
+LT Browser is a project assessment for C++ Developer Intern at LambdaTest. 
 
-The project's web site is https://www.chromium.org.
+Task Completed:
+- Replace application name from Chromium to LT Browser.
+- Replace chrome logo with LT Browser logo. If you dont have LT Browser logo you can use
+any other of your choice.
 
-To check out the source code locally, don't use `git clone`! Instead,
-follow [the instructions on how to get the code](docs/get_the_code.md).
 
-Documentation in the source is rooted in [docs/README.md](docs/README.md).
-
-Learn how to [Get Around the LT Browser Source Code Directory Structure
-](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code).
-
-For historical reasons, there are some small top level directories. Now the
-guidance is that new top level directories are for product (e.g. Chrome,
-Android WebView, Ash). Even if these products have multiple executables, the
-code should be in subdirectories of the product.
+## Screenshot 
+![Imgur](https://i.imgur.com/Bsq9MYo.png)
