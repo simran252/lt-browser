@@ -1,0 +1,255 @@
+Determining if files CommonCrypto/CommonCrypto.h exist failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_51610 && [1/2] Building C object CMakeFiles\cmTC_51610.dir\COMMONCRYPTO_FOUND.c.obj
+FAILED: CMakeFiles/cmTC_51610.dir/COMMONCRYPTO_FOUND.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_51610.dir\COMMONCRYPTO_FOUND.c.obj /FdCMakeFiles\cmTC_51610.dir\ /FS -c F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\COMMONCRYPTO_FOUND.c
+F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\COMMONCRYPTO_FOUND.c(2): fatal error C1083: Cannot open include file: 'CommonCrypto/CommonCrypto.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <CommonCrypto/CommonCrypto.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_179c1 && [1/2] Building C object CMakeFiles\cmTC_179c1.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_179c1.exe
+FAILED: cmTC_179c1.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_179c1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_179c1.dir\CheckFunctionExists.c.obj  /out:cmTC_179c1.exe /implib:cmTC_179c1.lib /pdb:cmTC_179c1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_179c1.dir\CheckFunctionExists.c.obj /out:cmTC_179c1.exe /implib:cmTC_179c1.lib /pdb:cmTC_179c1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_179c1.dir/intermediate.manifest CMakeFiles\cmTC_179c1.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol _snprintf referenced in function main
+cmTC_179c1.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_426db && [1/2] Building C object CMakeFiles\cmTC_426db.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_426db.exe
+FAILED: cmTC_426db.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_426db.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_426db.dir\CheckFunctionExists.c.obj  /out:cmTC_426db.exe /implib:cmTC_426db.lib /pdb:cmTC_426db.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_426db.dir\CheckFunctionExists.c.obj /out:cmTC_426db.exe /implib:cmTC_426db.lib /pdb:cmTC_426db.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_426db.dir/intermediate.manifest CMakeFiles\cmTC_426db.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol arc4random referenced in function main
+cmTC_426db.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function clonefile exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_22f72 && [1/2] Building C object CMakeFiles\cmTC_22f72.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_22f72.exe
+FAILED: cmTC_22f72.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_22f72.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_22f72.dir\CheckFunctionExists.c.obj  /out:cmTC_22f72.exe /implib:cmTC_22f72.lib /pdb:cmTC_22f72.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_22f72.dir\CheckFunctionExists.c.obj /out:cmTC_22f72.exe /implib:cmTC_22f72.lib /pdb:cmTC_22f72.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_22f72.dir/intermediate.manifest CMakeFiles\cmTC_22f72.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol clonefile referenced in function main
+cmTC_22f72.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_962d4 && [1/2] Building C object CMakeFiles\cmTC_962d4.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_962d4.exe
+FAILED: cmTC_962d4.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_962d4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_962d4.dir\CheckFunctionExists.c.obj  /out:cmTC_962d4.exe /implib:cmTC_962d4.lib /pdb:cmTC_962d4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_962d4.dir\CheckFunctionExists.c.obj /out:cmTC_962d4.exe /implib:cmTC_962d4.lib /pdb:cmTC_962d4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_962d4.dir/intermediate.manifest CMakeFiles\cmTC_962d4.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol explicit_bzero referenced in function main
+cmTC_962d4.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function explicit_memset exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c1879 && [1/2] Building C object CMakeFiles\cmTC_c1879.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_c1879.exe
+FAILED: cmTC_c1879.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c1879.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c1879.dir\CheckFunctionExists.c.obj  /out:cmTC_c1879.exe /implib:cmTC_c1879.lib /pdb:cmTC_c1879.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c1879.dir\CheckFunctionExists.c.obj /out:cmTC_c1879.exe /implib:cmTC_c1879.lib /pdb:cmTC_c1879.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_c1879.dir/intermediate.manifest CMakeFiles\cmTC_c1879.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol explicit_memset referenced in function main
+cmTC_c1879.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1c1f0 && [1/2] Building C object CMakeFiles\cmTC_1c1f0.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_1c1f0.exe
+FAILED: cmTC_1c1f0.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1c1f0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1c1f0.dir\CheckFunctionExists.c.obj  /out:cmTC_1c1f0.exe /implib:cmTC_1c1f0.lib /pdb:cmTC_1c1f0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1c1f0.dir\CheckFunctionExists.c.obj /out:cmTC_1c1f0.exe /implib:cmTC_1c1f0.lib /pdb:cmTC_1c1f0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_1c1f0.dir/intermediate.manifest CMakeFiles\cmTC_1c1f0.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol fseeko referenced in function main
+cmTC_1c1f0.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function ftello exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dffe2 && [1/2] Building C object CMakeFiles\cmTC_dffe2.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_dffe2.exe
+FAILED: cmTC_dffe2.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_dffe2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_dffe2.dir\CheckFunctionExists.c.obj  /out:cmTC_dffe2.exe /implib:cmTC_dffe2.lib /pdb:cmTC_dffe2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_dffe2.dir\CheckFunctionExists.c.obj /out:cmTC_dffe2.exe /implib:cmTC_dffe2.lib /pdb:cmTC_dffe2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_dffe2.dir/intermediate.manifest CMakeFiles\cmTC_dffe2.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol ftello referenced in function main
+cmTC_dffe2.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function getprogname exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_74778 && [1/2] Building C object CMakeFiles\cmTC_74778.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_74778.exe
+FAILED: cmTC_74778.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_74778.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_74778.dir\CheckFunctionExists.c.obj  /out:cmTC_74778.exe /implib:cmTC_74778.lib /pdb:cmTC_74778.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_74778.dir\CheckFunctionExists.c.obj /out:cmTC_74778.exe /implib:cmTC_74778.lib /pdb:cmTC_74778.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_74778.dir/intermediate.manifest CMakeFiles\cmTC_74778.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol getprogname referenced in function main
+cmTC_74778.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function localtime_r exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7e1eb && [1/2] Building C object CMakeFiles\cmTC_7e1eb.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_7e1eb.exe
+FAILED: cmTC_7e1eb.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7e1eb.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7e1eb.dir\CheckFunctionExists.c.obj  /out:cmTC_7e1eb.exe /implib:cmTC_7e1eb.lib /pdb:cmTC_7e1eb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7e1eb.dir\CheckFunctionExists.c.obj /out:cmTC_7e1eb.exe /implib:cmTC_7e1eb.lib /pdb:cmTC_7e1eb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7e1eb.dir/intermediate.manifest CMakeFiles\cmTC_7e1eb.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol localtime_r referenced in function main
+cmTC_7e1eb.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_87e17 && [1/2] Building C object CMakeFiles\cmTC_87e17.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_87e17.exe
+FAILED: cmTC_87e17.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_87e17.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_87e17.dir\CheckFunctionExists.c.obj  /out:cmTC_87e17.exe /implib:cmTC_87e17.lib /pdb:cmTC_87e17.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_87e17.dir\CheckFunctionExists.c.obj /out:cmTC_87e17.exe /implib:cmTC_87e17.lib /pdb:cmTC_87e17.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_87e17.dir/intermediate.manifest CMakeFiles\cmTC_87e17.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol snprintf referenced in function main
+cmTC_87e17.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2167b && [1/2] Building C object CMakeFiles\cmTC_2167b.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_2167b.exe
+FAILED: cmTC_2167b.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2167b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2167b.dir\CheckFunctionExists.c.obj  /out:cmTC_2167b.exe /implib:cmTC_2167b.lib /pdb:cmTC_2167b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2167b.dir\CheckFunctionExists.c.obj /out:cmTC_2167b.exe /implib:cmTC_2167b.lib /pdb:cmTC_2167b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_2167b.dir/intermediate.manifest CMakeFiles\cmTC_2167b.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main
+cmTC_2167b.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files sys/types.h;sys/stat.h;fts.h exist failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9a1bc && [1/2] Building C object CMakeFiles\cmTC_9a1bc.dir\HAVE_FTS_H.c.obj
+FAILED: CMakeFiles/cmTC_9a1bc.dir/HAVE_FTS_H.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_9a1bc.dir\HAVE_FTS_H.c.obj /FdCMakeFiles\cmTC_9a1bc.dir\ /FS -c F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_FTS_H.c
+F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_FTS_H.c(4): fatal error C1083: Cannot open include file: 'fts.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fts.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8a13a && [1/2] Building C object CMakeFiles\cmTC_8a13a.dir\HAVE_STRINGS_H.c.obj
+FAILED: CMakeFiles/cmTC_8a13a.dir/HAVE_STRINGS_H.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_8a13a.dir\HAVE_STRINGS_H.c.obj /FdCMakeFiles\cmTC_8a13a.dir\ /FS -c F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3344d && [1/2] Building C object CMakeFiles\cmTC_3344d.dir\HAVE_UNISTD_H.c.obj
+FAILED: CMakeFiles/cmTC_3344d.dir/HAVE_UNISTD_H.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_3344d.dir\HAVE_UNISTD_H.c.obj /FdCMakeFiles\cmTC_3344d.dir\ /FS -c F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+F:\lambdatest\src\third_party\libzip\src\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_FICLONERANGE failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_03cc8 && [1/2] Building C object CMakeFiles\cmTC_03cc8.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_03cc8.dir/src.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_FICLONERANGE  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_03cc8.dir\src.c.obj /FdCMakeFiles\cmTC_03cc8.dir\ /FS -c src.c
+src.c(1): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <sys/ioctl.h>
+#include <linux/fs.h>
+int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }
+Performing C SOURCE FILE Test HAVE_NULLABLE failed with the following output:
+Change Dir: F:/lambdatest/src/third_party/libzip/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b24b1 && [1/2] Building C object CMakeFiles\cmTC_b24b1.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_b24b1.dir/src.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_NULLABLE  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_b24b1.dir\src.c.obj /FdCMakeFiles\cmTC_b24b1.dir\ /FS -c src.c
+src.c(2): error C2146: syntax error: missing ')' before identifier 'bar'
+src.c(2): error C2061: syntax error: identifier 'bar'
+src.c(2): error C2059: syntax error: ';'
+src.c(2): error C2059: syntax error: ')'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+int foo(char * _Nullable bar);
+int main(int argc, char *argv[]) { }

@@ -1,0 +1,147 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29915 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.28.29915.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_47aa0 && [1/2] Building C object CMakeFiles\cmTC_47aa0.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_47aa0.exe
+
+
+
+Determining if the alloca exist passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_24de1 && [1/2] Building C object CMakeFiles\cmTC_24de1.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_24de1.exe
+
+
+File F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function lrintf exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9b4e9 && [1/2] Building C object CMakeFiles\cmTC_9b4e9.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_9b4e9.exe
+
+
+
+Determining if the function lrint exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5bbda && [1/2] Building C object CMakeFiles\cmTC_5bbda.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_5bbda.exe
+
+
+
+Determining if the include file intrin.h exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_092eb && [1/2] Building C object CMakeFiles\cmTC_092eb.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_092eb.exe
+
+
+
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ff069 && [1/2] Building C object CMakeFiles\cmTC_ff069.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_ff069.exe
+
+
+
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ae723 && [1/2] Building C object CMakeFiles\cmTC_ae723.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_ae723.exe
+
+
+
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_81158 && [1/2] Building C object CMakeFiles\cmTC_81158.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_81158.exe
+
+
+
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0fc00 && [1/2] Building C object CMakeFiles\cmTC_0fc00.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_0fc00.exe
+
+
+
+Performing C SOURCE FILE Test AVX_SUPPORTED succeeded with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6351c && [1/2] Building C object CMakeFiles\cmTC_6351c.dir\src.c.obj
+[2/2] Linking C executable cmTC_6351c.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FAST_MATH_SUPPORTED succeeded with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_65f90 && [1/2] Building C object CMakeFiles\cmTC_65f90.dir\src.c.obj
+[2/2] Linking C executable cmTC_65f90.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test STACK_PROTECTOR_SUPPORTED succeeded with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cc374 && [1/2] Building C object CMakeFiles\cmTC_cc374.dir\src.c.obj
+[2/2] Linking C executable cmTC_cc374.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test STACK_PROTECTOR_DISABLED_SUPPORTED succeeded with the following output:
+Change Dir: F:/lambdatest/src/third_party/opus/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_18758 && [1/2] Building C object CMakeFiles\cmTC_18758.dir\src.c.obj
+[2/2] Linking C executable cmTC_18758.exe
+
+
+Source file was:
+int main(void) { return 0; }
